@@ -1,0 +1,159 @@
+2014-05-29 20:51:29 Error: [MissingActionException] Action ClientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'index',
+)
+Request URL: /pruebascake/cakephp/clientes/
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-29 20:54:31 Error: [MissingActionException] Action ClientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'index',
+)
+Request URL: /pruebascake/cakephp/clientes/
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-29 20:54:45 Error: [MissingViewException] View file "/var/www/pruebascake/cakephp/app/View/Clientes/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/pruebascake/cakephp/app/View/Clientes/index.ctp',
+)
+Request URL: /pruebascake/cakephp/clientes/
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/pruebascake/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-29 21:15:44 Error: [MissingActionException] Action ClientesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'add',
+)
+Request URL: /pruebascake/cakephp/clientes/add
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-29 21:30:03 Error: [MissingControllerException] Controller class AgregarController could not be found.
+Exception Attributes: array (
+  'class' => 'AgregarController',
+  'plugin' => NULL,
+)
+Request URL: /pruebascake/cakephp/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-30 10:27:17 Error: [MissingActionException] Action ClientesController::clientes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'clientes',
+)
+Request URL: /pruebascake/cakephp/clientes/clientes/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-02 18:05:30 Error: [MissingActionException] Action ClientesController::clientes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'clientes',
+)
+Request URL: /pruebascake/cakephp/clientes/clientes/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-08 13:25:13 Error: [MissingActionException] Action ClientesController::clientes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'clientes',
+)
+Request URL: /pruebascake/cakephp/clientes/clientes/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-08 13:33:25 Error: [MissingActionException] Action TrabajosController::agregar() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrabajosController',
+  'action' => 'agregar',
+)
+Request URL: /pruebascake/cakephp/trabajos/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TrabajosController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-08 13:45:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Trabajo.cliente_id' in 'field list'
+Request URL: /pruebascake/cakephp/clientes
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Trabajo...', Array)
+#2 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Trabajo...', Array, Array)
+#3 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(1421): DboSource->fetchAll('SELECT `Trabajo...', false)
+#4 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(1259): DboSource->_fetchHasMany(Object(Cliente), 'SELECT `Trabajo...', Array)
+#5 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(1142): DboSource->queryAssociation(Object(Cliente), Object(Trabajo), 'hasMany', 'Trabajo', Array, Array, true, Array, 0, Array)
+#6 /var/www/pruebascake/cakephp/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Cliente), Array)
+#7 /var/www/pruebascake/cakephp/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#8 /var/www/pruebascake/cakephp/app/Controller/ClientesController.php(8): Model->find('all', Array)
+#9 [internal function]: ClientesController->index()
+#10 /var/www/pruebascake/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#11 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#13 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-07-08 13:56:28 Error: [MissingActionException] Action ClientesController::clientes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'clientes',
+)
+Request URL: /pruebascake/cakephp/clientes/clientes/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-08 13:57:43 Error: [MissingControllerException] Controller class AgregarController could not be found.
+Exception Attributes: array (
+  'class' => 'AgregarController',
+  'plugin' => NULL,
+)
+Request URL: /pruebascake/cakephp/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-08 13:57:56 Error: [MissingControllerException] Controller class AgregarController could not be found.
+Exception Attributes: array (
+  'class' => 'AgregarController',
+  'plugin' => NULL,
+)
+Request URL: /pruebascake/cakephp/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-08 13:58:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`galt1`.`trabajos`, CONSTRAINT `trabajos_ibfk_1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Request URL: /pruebascake/cakephp/trabajos/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ga...', Array)
+#2 /var/www/pruebascake/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ga...')
+#3 /var/www/pruebascake/cakephp/lib/Cake/Model/Model.php(1834): DboSource->create(Object(Trabajo), Array, Array)
+#4 /var/www/pruebascake/cakephp/app/Controller/TrabajosController.php(15): Model->save(Array)
+#5 [internal function]: TrabajosController->agregar()
+#6 /var/www/pruebascake/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TrabajosController), Array)
+#7 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TrabajosController), Object(CakeRequest))
+#9 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
