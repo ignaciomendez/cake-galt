@@ -4,7 +4,8 @@ class Trabajo extends AppModel {
 	public $belongsTo = array(
 			'Cliente' => array(
 					'className' => 'Cliente',
-					'foreignKey' => 'cliente_id'
+					//'foreignKey' => 'cliente_id',
+					'dependent' => false
 				)
 			);
 }

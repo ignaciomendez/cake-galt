@@ -10,7 +10,7 @@ class ClientesController extends AppController {
 		//$this->set('clientes', $this->Cliente->findById(1));
 	}
 	
-	public function agregar() {
+	public function add() {
 		if($this->request->is('post')):
 			if($this->Cliente->save($this->request->data)):
 				$this->Session->setFlash('Cliente guardado');

@@ -157,3 +157,25 @@ Stack Trace:
 #8 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TrabajosController), Object(CakeRequest))
 #9 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-10-19 16:41:45 Error: [MissingActionException] Action TrabajosController::trabajos() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrabajosController',
+  'action' => 'trabajos',
+)
+Request URL: /pruebascake/cakephp/trabajos/trabajos/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TrabajosController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-19 16:52:07 Error: [MissingActionException] Action TrabajosController::agregar() could not be found.
+Exception Attributes: array (
+  'controller' => 'TrabajosController',
+  'action' => 'agregar',
+)
+Request URL: /pruebascake/cakephp/trabajos/agregar
+Stack Trace:
+#0 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/pruebascake/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TrabajosController), Object(CakeRequest))
+#2 /var/www/pruebascake/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
