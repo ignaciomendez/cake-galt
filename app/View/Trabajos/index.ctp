@@ -2,17 +2,36 @@
 <br/>
 <h2>Este es un listado con nuestros Trabajos</h2>
 <a href="trabajos/add">Agregar nuevo</a>
+
 <table>
 	<tr>
 		<th>Id.</th>
 		<th>Descripción</th>
+		<th>Fecha Inicio</th>
+		<th>Fecha fin</th>
 		<th>Cliente</th>
 	</tr>
 <?php foreach($trabajos as $k=>$trabajo): ?>
 	<tr>
-		<td><?php echo $trabajo['Trabajo']['id'] ?></td>
-		<td><?php echo $trabajo['Trabajo']['descripcion'] ?></td>
-		<td><?php echo $trabajo['Trabajo']['cliente_id'] ?></td>
+		<td><?php echo $trabajo['Trabajo']['id']; ?></td>
+		<td><?php echo $trabajo['Trabajo']['descripcion']; ?></td>
+		<td><?php echo $trabajo['Trabajo']['fecha_inicio']; ?></td>
+		<td>
+			<?php 
+				if($trabajo['Trabajo']['fecha_fin']==null) {
+					echo $this->Html->link('Finalizar',
+						array(
+							'controller' => 'trabajos',
+							'action' => 'finalizar',
+							'full_base' => true,
+							$trabajo['Trabajo']['id']
+							));
+				} else {
+					echo $trabajo['Trabajo']['fecha_fin'];
+				}
+			?>
+		</td>
+		<td><?php echo $trabajo['Trabajo']['cliente_id']; ?></td>
 	</tr>
 <?php endforeach;?>
 </table>

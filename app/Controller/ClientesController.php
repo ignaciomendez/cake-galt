@@ -4,7 +4,7 @@ class ClientesController extends AppController {
 	public $components = array('Session');
 	
 	public function index() {
-		$params = array('order'=>'nombre desc');
+		$params = array('order'=>'id');
 		$this->set('clientes', $this->Cliente->find('all',$params));
 		//Para buscar
 		//$this->set('clientes', $this->Cliente->findById(1));
